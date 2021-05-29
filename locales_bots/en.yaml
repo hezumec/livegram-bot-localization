@@ -1,27 +1,26 @@
 language_info:
   is_enabled: true
-  name: English
-
+  name: Español
 start:
-  choose_language: 'Please choose your language:'
-  language_changed: OK, your language saved.
+  choose_language: 'Por favor, selecciona tu lenguaje:'
+  language_changed: OK, tu lenguaje está guardado.
   copyright: |
-    This bot was made using @LivegramBot.
+    Este bot fue hecho con @LivegramBot.
     
 cannot_forward: |
-  You can't forward someone else's messages.
+  No puedes reenviar mensajes de otras personas.
   
 cannot_edit: |
-  If you want that the receiver can be able to see the changes, send your message as new.
+  Si quiere que el receptor pueda ver los cambios, responda el mensaje de nuevo.
 
 welcome: |-
-  Hello!
+  Hola!
   
-  You can contact us using this bot.
-after_sending: (strings are not specified)
+  Puedes contactarnos usando este bot.
+after_sending: (No especificas las cadenas de caracteres)
 
 ban: |
-  You have been banned ${until ? 'until ' + until + ' UTC' : 'forever'}.${reason ? '\n\nReason: ' + reason : ''}
+  Te han prohibido banned${until ? 'hasta ' + until + ' UTC' : 'para siempre'}.${reason ? '\n\nRazón: ' + reason : ''}
 
 unban: |
-  You have been unbanned.
+  Has sido desbaneado.
